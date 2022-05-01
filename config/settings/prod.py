@@ -7,6 +7,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['.herokuapp.com',]
 
 DATABASES = {'default': dj_database_url.config()}
+DATABASES['default']['CONN_MAX_AGE'] = 500
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',

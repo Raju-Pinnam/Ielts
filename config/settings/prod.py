@@ -3,7 +3,7 @@ from .base import *
 print("Using Prod Settings")
 
 DEBUG = False
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.heroku.com',]
 
 DATABASES = {
     'default': {

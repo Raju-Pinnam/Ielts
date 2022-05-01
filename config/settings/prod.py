@@ -4,7 +4,7 @@ import dj_database_url
 print("Using Prod Settings")
 
 DEBUG = False
-ALLOWED_HOSTS = ['.heroku.com',]
+ALLOWED_HOSTS = ['.herokuapp.com',]
 
 DATABASES = {'default': dj_database_url.config()}
 # DATABASES = {
